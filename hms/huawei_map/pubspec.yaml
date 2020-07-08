@@ -1,0 +1,27 @@
+name: huawei_map
+description: Huawei Map Flutter Plugin
+version: 4.0.4
+author:
+homepage:
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  stream_transform: 1.2.0
+  flutter_plugin_android_lifecycle: 1.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.huawei.hms.flutter.map
+        pluginClass: HmsMap
+
